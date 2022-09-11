@@ -1,8 +1,8 @@
 {
-  "swagger": "2.0",
+  "swagger": "1.0",
   "info": {
     "title": "Vexanium API Documentation by genesisblockid",
-    "version": "2.1.0",
+    "version": "1.0.0",
     "license": {
       "name": "MIT",
       "url": "https://opensource.org/licenses/MIT"
@@ -34,14 +34,14 @@
    "tags": [
     {
       "name": "chain",
-      "description": "Chain 2.1.0 API"
+      "description": "Chain 1.0.0 API"
     }
   ],
   "components": {
     "schemas": {}
   },
   "paths": {
-    "/v1/chain/get_account": {
+    "/v2/chain/get_account": {
       "post": {
         "tags": [
           "chain"
@@ -885,7 +885,7 @@
         }
       }
     },
-    "/v1/chain/get_block": {
+    "/v2/chain/get_block": {
       "post": {
         "tags": [
           "chain"
@@ -1607,7 +1607,7 @@
         }
       }
     },
-    "/v1/chain/get_info": {
+    "/v2/chain/get_info": {
       "post": {
         "tags": [
           "chain"
@@ -1710,7 +1710,7 @@
         }
       }
     },
-    "/v1/chain/push_transaction": {
+    "/v2/chain/push_transaction": {
       "post": {
         "tags": [
           "chain"
@@ -1764,7 +1764,7 @@
         }
       }
     },
-    "/v1/chain/send_transaction": {
+    "/v2/chain/send_transaction": {
       "post": {
         "tags": [
           "chain"
@@ -1818,7 +1818,7 @@
         }
       }
     },
-    "/v1/chain/push_transactions": {
+    "/v2/chain/push_transactions": {
       "post": {
         "tags": [
           "chain"
@@ -2237,7 +2237,7 @@
         }
       }
     },
-    "/v1/chain/get_block_header_state": {
+    "/v2/chain/get_block_header_state": {
       "post": {
         "tags": [
           "chain"
@@ -3345,7 +3345,7 @@
         }
       }
     },
-    "/v1/chain/get_abi": {
+    "/v2/chain/get_abi": {
       "post": {
         "tags": [
           "chain"
@@ -3745,7 +3745,7 @@
         }
       }
     },
-    "/v1/chain/get_currency_balance": {
+    "/v2/chain/get_currency_balance": {
       "post": {
         "tags": [
           "chain"
@@ -3852,7 +3852,7 @@
         }
       }
     },
-    "/v1/chain/get_currency_stats": {
+    "/v2/chain/get_currency_stats": {
       "post": {
         "tags": [
           "chain"
@@ -3919,7 +3919,7 @@
         }
       }
     },
-    "/v1/chain/get_required_keys": {
+    "/v2/chain/get_required_keys": {
       "post": {
         "tags": [
           "chain"
@@ -4352,7 +4352,7 @@
         }
       }
     },
-    "/v1/chain/get_producers": {
+    "/v2/chain/get_producers": {
       "post": {
         "tags": [
           "chain"
@@ -4621,7 +4621,7 @@
         }
       }
     },
-    "/v1/chain/get_raw_code_and_abi": {
+    "/v2/chain/get_raw_code_and_abi": {
       "post": {
         "tags": [
           "chain"
@@ -4724,7 +4724,7 @@
         }
       }
     },
-    "/v1/chain/get_scheduled_transaction": {
+    "/v2/chain/get_scheduled_transaction": {
       "post": {
         "tags": [
           "chain"
@@ -5164,7 +5164,7 @@
         }
       }
     },
-    "/v1/chain/get_table_by_scope": {
+    "/v2/chain/get_table_by_scope": {
       "post": {
         "tags": [
           "chain"
@@ -5400,7 +5400,7 @@
         }
       }
     },
-    "/v1/chain/get_table_rows": {
+    "/v2/chain/get_table_rows": {
       "post": {
         "tags": [
           "chain"
@@ -5490,7 +5490,7 @@
         }
       }
     },
-    "/v1/chain/abi_json_to_bin": {
+    "/v2/chain/abi_json_to_bin": {
       "post": {
         "tags": [
           "chain"
@@ -5592,7 +5592,7 @@
         }
       }
     },
-    "/v1/chain/abi_bin_to_json": {
+    "/v2/chain/abi_bin_to_json": {
       "post": {
         "tags": [
           "chain"
@@ -5693,7 +5693,7 @@
         }
       }
     },
-    "/v1/chain/get_code": {
+    "/v2/chain/get_code": {
       "post": {
         "tags": [
           "chain"
@@ -6145,7 +6145,7 @@
         }
       }
     },
-    "/v1/chain/get_raw_abi": {
+    "/v2/chain/get_raw_abi": {
       "post": {
         "tags": [
           "chain"
@@ -6257,7 +6257,7 @@
         }
       }
     },
-    "/v1/chain/get_activated_protocol_features": {
+    "/v2/chain/get_activated_protocol_features": {
       "post": {
         "tags": [
           "chain"
@@ -6339,7 +6339,7 @@
         }
       }
     },
-    "/v1/chain/get_accounts_by_authorizers": {
+    "/v2/chain/get_accounts_by_authorizers": {
       "post": {
         "tags": [
           "chain"
@@ -6657,7 +6657,7 @@
         }
       }
     },
-    "/v1/chain/${chain_rpc_method_name}": {
+    "/v2/chain/${chain_rpc_method_name}": {
       "post": {
         "tags": [
           "history"
