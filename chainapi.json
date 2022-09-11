@@ -18,7 +18,7 @@
         "protocol": {
           "enum": [
             "http",
-            "https"
+            "http"
           ],
           "default": "http"
         },
